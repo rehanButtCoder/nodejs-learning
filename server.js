@@ -10,6 +10,7 @@ const {
   forgotPassword,
   resetPassword,
 } = require("./controllers/authController.js");
+// 
 const userRoutes = require("./routes/userRoutes.js");
 const studentDetailRoutes = require("./routes/studentDetailRoute.js");
 const imageUploadRoute = require("./routes/imageUploadRoute.js");
